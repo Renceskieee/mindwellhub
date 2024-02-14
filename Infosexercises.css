@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: ;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.header-main {
+  background-color: #43766C;
+  height: 80px;
+  z-index: 1;
+}
+
+.titlecons{
+  font-family: Georgia, serif;
+  font-size: 32px;
+  letter-spacing: 0.4rem;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 260px;
+  z-index: 2;
+}
+
+.bg-third {
+    background-image: url("bg-3rd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    height: 110vh;
+}
+
+.icon-division {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  margin-top: 80px;
+  position: relative;
+  top: -120px;
+  z-index: 100;
+}
+
+.bg-solid {
+  content: url(solid-bg.jpg);
+  position: absolute;
+  border-radius: 20px;
+  opacity: 0.9;
+  height: 105%;
+  width: 90%;
+  top: 65px;
+  left: 25px;
+  z-index: -1;
+}
+
+.iframe2 {
+  position: absolute;
+  top: 110px;
+  left: 380px;
+  width: 70%;
+  height: 640px;
+  image-resolution: auto;
+  z-index: 100;
+}
+
+.icon-link {
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace, serif;
+    font-weight: bold;
+    background-color: #43766C;
+    z-index: 100;
+  }
+  
+  .icon-link:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon-link:active {
+    transform: translateY(2px);
+  }
+  

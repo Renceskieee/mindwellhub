@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mwh.css" />
+    <link rel="icon" type="image/x-icon" href="brain2-logo.png">
+    <title>MindWell Hub</title>
+</head>
+<body>
+    <div class="bg-main" id="home">
+        <div class="header-container">
+        <img class="logo-main">
+            <div class="hdr-main">MindWell Hub</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><span class="separator">|</span></li>
+                    <li><a href="#about">About</a></li>
+                    <li><span class="separator">|</span></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><span class="separator">|</span></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <form class="form" onsubmit="performSearch(event)">
+                    <button>
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="search">
+                            <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <input class="input" id="searchInput" placeholder="Search..." required="" type="text" autocomplete="off">
+                </form>
+            </nav>
+        </div>
+        <script src="search.js"></script>
+        <script src="nav.js"></script>
+            <div class="desc-main">Free mental health education and counseling are available through MindWell Hub,
+            particularly for those of us with mental health issues.</div>
+            <div class="card1">
+                <img src="hlth-pic1.jpg" alt="Card Image">
+                <div class="card__content1">
+                  <p class="card__title1">Mental Illness and Exercise</p>
+                  <p class="card__description1">Explore our resources and programs designed to promote a holistic approach to mental wellness, encouraging individuals to incorporate exercise into their routine for a healthier mind and body.</p>
+                </div>
+              </div>
+              <div class="card2">
+                <img src="Wbnr-pic2.jpg" alt="Card Image">
+                <div class="card__content2">
+                  <p class="card__title2">Webinar</p>
+                  <p class="card__description2">Our engaging webinars feature expert speakers and thought leaders, offering valuable insights, practical tips, and empowering discussions. Explore diverse perspectives on mental well-being, gain knowledge, and connect with a supportive community.</p>
+                </div>
+              </div>
+              <div class="card3">
+                <img src="dctr-pic3.jpg" alt="Card Image">
+                <div class="card__content3">
+                  <p class="card__title3">Online Doctor</p>
+                  <p class="card__description3">Our platform connects you with qualified and caring mental health professionals who offer virtual consultations from the comfort of your own space. Receive confidential and expert guidance on managing mental health concerns, exploring treatment options, and fostering well-being.</p>
+                </div>
+            </div>
+        </div>
+    <div class="bg-second" id="about">
+        <div class="hdr-2nd">Navigating the Depths: Unveiling <br>the Complex Landscape of <br>Mental Health</div>
+        <div class="desc-2nd">Let's unravel the complexities of mental health, creating a space where everyone's story is heard, 
+            understood, and embraced.</div>
+        <button class="learn-more" id="readMoreButton"> About us
+        </button>
+        <iframe class="external-vid" src="Main-vid.mp4" title="What is depression and how can I get help? | Mind">
+        </iframe>
+    </div>
+    <script src="cont.js"></script>
+    <div class="bg-third" id="services">
+        <img class="design-third">
+        <div class="hdr-third"> S e r v i c e s </div>
+        <div class="cards">
+            <div class="card red">
+                <p class="tip"><a href="Infosexercises.html" style="text-decoration: none; color: inherit;">Mental Illness and Exercise</a></p>
+                <p class="second-text">•••••</p>
+            </div>
+            <div class="card blue">
+                <p class="tip"><a href="wbnr.html" style="text-decoration: none; color: inherit;">Webinar</a></p>
+                <p class="second-text">•••••</p>
+            </div>
+            <div class="card green">
+                <p class="tip"><a href="DoctorCon.html" style="text-decoration: none; color: inherit;">Online Doctor</a></p>
+                <p class="second-text">•••••</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-fourth" id="contact">
+        <div class="card9">
+            <span class="card__title9">Contact Us</span>
+            <p class="card__text9">Let's start a conversation about how we can help you achieve mental well-being.</p>
+            <button class="card__button9" onclick="sendEmail()">Message</button>
+          </div>     
+        <p class="help-title">Need help?</p>
+        <p class="desc-3rd">Use this form to reach out to our Customer Success Team<br> regarding any questions, concerns, or feedback.</p>    
+        <img class="help-design">
+        <img class="loc-logo">
+        <p class="loc-desc"><a href="https://maps.app.goo.gl/ZjVxoqbxB4hc9Stk7" style="text-decoration: none; color: inherit;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Nagtahan St, Sampaloc, Manila, 1008 Metro Manila</a></p>
+
+        <img class="ncmh-logo">
+        <img class="ugat-logo">
+        <img class="pgh-logo">
+        <img class="bcl-logo">
+        <p class="credits">&#9400; MindWell Hub 2024</p>
+    </div>
+    <script src="design.js" defer></script>
+</body>
+</html>

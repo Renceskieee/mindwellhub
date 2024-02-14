@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Layouts</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #43766C;
+            font-size: 18px;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #43766C;
+            border-radius: 10px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background-color: #80BCBD;
+        }
+
+        section {
+            padding: 20px;
+            margin: 0px;
+        }
+
+
+        .layout1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title1 {
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 0.2rem;
+        }
+
+        .desc1 {
+            font-weight: normal;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+
+        .layout2 {
+            display: flex;
+        }
+
+        .title2 {
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 0.2rem;
+        }
+
+        .desc2 {
+            font-weight: normal;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .content img {
+            margin-top: 65px;
+            margin-left: 30px;
+        }
+
+        .content h4{
+            margin-left: 30px;
+            font-size: 12px;
+            font-weight: bold;
+            font-style: oblique;
+            text-align: justify;
+        }
+        
+        .title3 {
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 0.2rem;
+        }
+
+        .video-frame iframe {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Anxiety</h1>
+    </header>
+
+    <section class="layout1">
+        <h2 class="title1">What is Anxiety?</h2>
+        <p class="desc1">
+            Anxiety is an unsettling emotional state characterized by inner turmoil and the anticipation
+            of future threats, distinct from fear, which responds to real threats. It involves generalized
+            and unfocused worry often accompanied by nervous behaviors and physical symptoms like muscular
+            tension, restlessness, and fatigue. Linked to fear but centered on expecting future threats,
+            anxiety can persist and evolve into anxiety disorders, such as generalized anxiety disorder or
+            panic disorder, where the emotional distress extends beyond typical timeframes.
+        </p>
+    </section>
+
+    <section class="layout2">
+        <div class="content">
+            <h2 class="title2">Symptoms</h2>
+            <p class="desc2"> 
+                While most individuals do not experience chronic anxiety, it can lead to psychological distress, 
+                mental disorders, and even self-harm or suicidal thoughts. <br><br>
+
+                The physiological symptoms of anxiety may include: <br><br>
+
+                Neurological, such as headache, paresthesias, fasciculations, vertigo, or presyncope.<br><br>
+                Digestive, such as abdominal pain, nausea, diarrhea, indigestion, dry mouth, or bolus.<br><br>
+                Stress hormones released in an anxious state have an impact on bowel function and 
+                can manifest physical symptoms that may contribute to or exacerbate IBS.<br><br> 
+                Respiratory, such as shortness of breath or sighing breathing. Cardiac, as palpitations, tachycardia, or chest pain.
+            </p>
+        </div>
+
+        <div class="content">
+            <img src="Worried_Applicant.jpg" alt="Anxiety" width="300px" height="300px">
+            <h4>A job applicant with a facial expression indicative of anxiety</h4>
+        </div>
+    </section>
+
+    <section class="video-frame">
+        <h2 class="title3">Anxiety Relief Exercises: 10 Minute Daily Routines</h2>
+            <iframe src="ANXIETY RELIEF Exercises _ 10 Minute Daily Routines.mp4" frameborder="0" add autoplay="0"></iframe>
+    </section>
+</body>
+</html>

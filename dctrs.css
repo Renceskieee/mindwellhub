@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dctrs-header {
+    background-color: #43766C;
+    height: 80px;
+    z-index: 1;
+}
+
+.dctrs-title {
+    position: absolute;
+    color: white;
+    font-family: Georgia, serif;
+    letter-spacing: 0.4rem;
+    left: 550px;
+    z-index: 1000;
+}
+
+.dctrs-main {
+    background-image: url("dctrs-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}

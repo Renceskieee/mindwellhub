@@ -1,0 +1,173 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg-cont {
+    background-image: url("bg-cont.jpg");
+    background-color: #DBE7C9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.first-pic {
+    content: url('Laurence.png');
+    border-radius: 40% 5% 5% 5%;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 60px;
+    position: absolute;
+}
+
+.second-pic {
+    content: url('Tanya.png');
+    border-radius: 5% 40% 5% 5%;
+    width: 200px;
+    height: 250px;
+    top: 40px;
+    left: 280px;
+    position: absolute;
+}
+
+.third-pic {
+    content: url('Ernest.png');
+    border-radius: 5% 5% 5% 5%;
+    width: 200px;
+    height: 250px;
+    top: 260px;
+    left: 60px;
+    position: absolute;
+}
+
+.fourth-pic {
+    content: url('Gerard.png');
+    border-radius: 5% 5% 5% 40%;
+    width: 200px;
+    height: 200px;
+    top: 530px;
+    left: 60px;
+    position: absolute;
+}
+
+.fifth-pic {
+    content: url('Josephine.png');
+    border-radius: 5% 5% 5% 5%;
+    width: 200px;
+    height: 200px;
+    top: 310px;
+    left: 280px;
+    position: absolute;
+}
+
+.sixth-pic {
+    content: url('Feb.png');
+    border-radius: 5% 5% 40% 5%;
+    width: 200px;
+    height: 200px;
+    top: 530px;
+    left: 280px;
+    position: absolute;
+}
+
+.about-title {
+    font-size: 48px;
+    font-family: cursive;
+    color: rgb(104, 126, 104);
+    position: absolute;
+    top: 60px;
+    left: 850px;
+}
+
+.about-info {
+    position: absolute;
+    padding-right: 80px;
+    padding-left: 80px;
+    top: 200px;
+    left: 500px;
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    color: rgb(76, 94, 74);
+}
+
+.first-pic:hover,
+.second-pic:hover,
+.third-pic:hover,
+.fourth-pic:hover,
+.fifth-pic:hover,
+.sixth-pic:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.fb-logo {
+    content: url('fb.png');
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 480px;
+    left: 600px;
+}
+
+.fb-page {
+    position: absolute;
+    top: 468px;
+    left: 650px;
+    font-family: system-ui;
+    font-size: larger;
+    text-align: center;
+    color: #294B29;
+}
+
+.email-logo {
+    content: url('email.png');
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 530px;
+    left: 600px;
+}
+
+.email {
+    position: absolute;
+    top: 518px;
+    left: 650px;
+    font-family: system-ui;
+    font-size: larger;
+    text-align: center;
+    color: #294B29;
+}
+
+.phone-logo {
+    content: url('phone.png');
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 580px;
+    left: 600px;
+}
+
+.number {
+    position: absolute;
+    top: 568px;
+    left: 650px;
+    font-family: system-ui;
+    font-size: larger;
+    text-align: center;
+    color: #294B29;
+}
+
+.credits {
+    position: absolute;
+    font-size: 12px;
+    font-family: cursive;
+    color: #43766C(104, 126, 104);
+    top: 720px;
+    left: 900px;
+}
