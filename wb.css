@@ -545,3 +545,571 @@ button {
   .button5:hover .arrow5:before {
     right: 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media only screen and (max-width: 768px) { 
+  
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+      width: 0px;
+  }
+  
+  .header2 {
+      background-color: #43766C;
+      height: 80px;
+      z-index: 1;
+  }
+  
+  .main-title {
+      position: absolute;
+      color: white;
+      font-family: Georgia, serif;
+      font-size: 25px;
+      letter-spacing: 0rem;
+      top: 10px;
+      left: 10px;
+      z-index: 2;
+  }
+  
+  .anxiety {
+      background-color: #ADBC9F;
+      height: 255px;
+      z-index: -1;
+  }
+  
+  .title-anx {
+      font-family: Lucida, monospace;
+      font-size: 20px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 80px;
+      left: 10px;
+  }
+  
+  .about-anx {
+      font-family: Arial, sans-serif;
+      font-stretch: ultra-expanded;
+      font-weight: bold;
+      font-size: 13px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 140px;
+      left: 10px;
+      margin-right: 80px;
+  }
+  
+  button {
+      --primary-color: #436850;
+      --secondary-color: #fff;
+      --hover-color: #12372A;
+      --arrow-width: 10px;
+      --arrow-stroke: 2px;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 30px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 0.2s background;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: normal;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      position: absolute;
+      top: 310px;
+      left: 80px;
+      cursor: pointer;
+    }
+    
+    button .arrow-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    button .arrow {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+    button .arrow::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    button:hover {
+      background-color: var(--hover-color);
+    }
+    
+    button:hover .arrow {
+      background: var(--secondary-color);
+    }
+    
+    button:hover .arrow:before {
+      right: 0;
+    }
+  
+  .treatment {
+      background-color: #E1F0DA;
+      height: 340px;
+      z-index: -1;
+  }
+  
+  .trt {
+      content: url(treatment.jpg);
+      position: absolute;
+      width: 45%;
+      height: 74.3%;
+      top: 550px;
+      clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+      z-index: 0;
+      visibility: collapse;
+  }
+  
+  .title-trt {
+      font-family: Lucida, monospace;
+      font-size: 20px;
+      color: #12372A;
+      padding-right: 00px;
+      position: absolute;
+      top: 370px;
+      left: 10px;
+      margin-right: 60px;
+  }
+  
+  .about-trt {
+      font-family: Arial, sans-serif;
+      font-stretch: ultra-expanded;
+      font-weight: bold;
+      font-size: 13px;
+      color: #12372A;
+      padding-right: 0px;
+      margin-right: 70px;
+      position: absolute;
+      top: 470px;
+      left: 10px;
+  }
+  
+  .button2 {
+      --primary-color: #436850;
+      --secondary-color: #fff;
+      --hover-color: #12372A;
+      --arrow-width: 10px;
+      --arrow-stroke: 2px;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 30px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 0.2s background;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: normal;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      position: absolute;
+      top: 650px;
+      left: 80px;
+      cursor: pointer;
+    }
+    
+    .button2 .arrow-wrapper2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .button2 .arrow2 {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+    .button2 .arrow2::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    .button2:hover {
+      background-color: var(--hover-color);
+    }
+    
+    .button2:hover .arrow2 {
+      background: var(--secondary-color);
+    }
+    
+    .button2:hover .arrow2:before {
+      right: 0;
+    }
+  
+  .disorder {
+      background-color: #ADBC9F;
+      height: 370px;
+      z-index: -1;
+  }
+  
+  .dsdr {
+      content: url(bipolar.jpg);
+      position: absolute;
+      width: 45%;
+      height: 74.3%;
+      top: 1020px;
+      left: 795px;
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+      z-index: 0;
+      visibility: collapse;
+  }
+  
+  .title-dsdr {
+      font-family: Lucida, monospace;
+      font-size: 20px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 720px;
+      left: 10px;
+      margin-right: 60px;
+  }
+  
+  .about-dsdr {
+      font-family: Arial, sans-serif;
+      font-stretch: ultra-expanded;
+      font-weight: bold;
+      font-size: 13px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 820px;
+      left: 10px;
+      margin-right: 80px;
+  }
+  
+  .button3 {
+      --primary-color: #436850;
+      --secondary-color: #fff;
+      --hover-color: #12372A;
+      --arrow-width: 10px;
+      --arrow-stroke: 2px;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 30px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 0.2s background;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: normal;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      position: absolute;
+      top: 1020px;
+      left: 80px;
+      cursor: pointer;
+    }
+    
+    .button3 .arrow-wrapper3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .button3 .arrow3 {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+    .button3 .arrow3::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    .button3:hover {
+      background-color: var(--hover-color);
+    }
+    
+    .button3:hover .arrow3 {
+      background: var(--secondary-color);
+    }
+    
+    .button3:hover .arrow3:before {
+      right: 0;
+    }
+  
+  .dementia {
+      background-color: #E1F0DA;
+      height: 380px;
+      z-index: -1;
+  }
+  
+  .dmt {
+      content: url(dementia.jpg);
+      position: absolute;
+      width: 45%;
+      height: 74.3%;
+      top: 1490px;
+      clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+      z-index: 0;
+      visibility: collapse;
+  }
+  
+  .title-dmt {
+    font-family: Lucida, monospace;
+    font-size: 20px;
+    padding-right: 0px;
+    color: #12372A;
+    position: absolute;
+    top: 1080px;
+    left: 10px;
+    margin-right: 60px;
+  }
+  
+  .about-dmt {
+    font-family: Arial, sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 0px;
+    color: #12372A;
+    position: absolute;
+    top: 1180px;
+    left: 10px;
+    margin-right: 80px;
+  }
+  
+  .button4 {
+      --primary-color: #436850;
+      --secondary-color: #fff;
+      --hover-color: #12372A;
+      --arrow-width: 10px;
+      --arrow-stroke: 2px;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 30px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 0.2s background;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: normal;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      position: absolute;
+      top: 1400px;
+      left: 80px;
+      cursor: pointer;
+    }
+    
+    .button4 .arrow-wrapper4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .button4 .arrow4 {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+    .button4 .arrow4::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    .button4:hover {
+      background-color: var(--hover-color);
+    }
+    
+    .button4:hover .arrow4 {
+      background: var(--secondary-color);
+    }
+    
+    .button4:hover .arrow4:before {
+      right: 0;
+    }
+  
+  .dialect {
+      background-color: #ADBC9F;
+      height: 360px;
+      z-index: -1;
+  }
+  
+  .dia {
+      content: url(communication.jpg);
+      position: absolute;
+      width: 45%;
+      height: 0%;
+      top: 1960px;
+      left: 795px;
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+      z-index: 0;
+      visibility: collapse;
+  }
+  
+  .title-dia {
+      font-family: Lucida, monospace;
+      font-size: 20px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 1470px;
+      left: 10px;
+      margin-right: 60px;
+  }
+  
+  .about-dia {
+      font-family: Arial, sans-serif;
+      font-stretch: ultra-expanded;
+      font-weight: bold;
+      font-size: 13px;
+      padding-right: 0px;
+      color: #12372A;
+      position: absolute;
+      top: 1570px;
+      left: 10px;
+      margin-right: 70px;
+  }
+  
+  .button5 {
+      --primary-color: #436850;
+      --secondary-color: #fff;
+      --hover-color: #12372A;
+      --arrow-width: 10px;
+      --arrow-stroke: 2px;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 30px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 0.2s background;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: normal;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      position: absolute;
+      top: 1760px;
+      left: 80px;
+      cursor: pointer;
+    }
+    
+    .button5 .arrow-wrapper5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .button5 .arrow5 {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+    .button5 .arrow5::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    .button5:hover {
+      background-color: var(--hover-color);
+    }
+    
+    .button5:hover .arrow5 {
+      background: var(--secondary-color);
+    }
+    
+    .button5:hover .arrow5:before {
+      right: 0;
+    }
+  
+  }
